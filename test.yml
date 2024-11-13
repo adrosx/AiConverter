@@ -32,7 +32,7 @@ jobs:
           pytest --maxfail=5 --disable-warnings --cov=.
 
       - name: Upload coverage report
-        uses: actions/upload-artifact@v3
+        uses: uses: actions/upload-artifact@v3.1.0
         with:
           name: coverage-report
           path: htmlcov/
